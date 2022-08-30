@@ -33,16 +33,6 @@ public class Main {
         list.addAll(listFinal);
     }
 
-    public static void sortAndRemoveDuplicates(List<Integer>list){
-        sort(list);
-        Iterator<Integer> intList = list.iterator();
-        List<Integer> listTemp = new LinkedList<>();
-        listTemp.addAll(list);
-        Iterator<Integer> tempList = listTemp.iterator();
-        for (int i = 0; i < list.size(); i++) {
-
-        }
-    }
 
     public static void main(String[] args) {
 
@@ -56,8 +46,6 @@ public class Main {
         partition(testList, 5);
         System.out.println(testList);
 
-        Integer[] shitList2 ={7,4,-9,4,15,8,27,7,11,-5,32,-9,-9};
-        List<Integer> testList2 = new LinkedList<>(List.of(shitList));
 
     }
 }
